@@ -8,7 +8,6 @@ import {
   Revenue,
 } from './definitions';
 import { formatCurrency } from './utils';
-import { collectSegments } from 'next/dist/build/segment-config/app/app-segments';
 import { EventEmitter } from 'stream';
 
 EventEmitter.defaultMaxListeners = 20;
